@@ -1,0 +1,10 @@
+@prefix rdf: <http://www.w3.org/assigment2> . @prefix type: <http://www.w3.org/types> . @prefix proper: <http://www.w3.org/properties> 
+:Class 01 rdf: includes: Sensor 029,Computer101. 
+
+:Sensor029 type: hasMeasurement: Measurement8401. 
+
+:Measurement8401 types: hasTemperature:"29"^^xsd.Integer; types: atTime:"2010-06-12 2:00:12"^^xsd.DateTime. 
+
+:Computer101 type: hasOwner: User10A.
+ 
+:User10A proper: hasName: "Pedro"^^xsd.String
